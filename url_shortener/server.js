@@ -4,10 +4,6 @@ const cors = require('cors');
 const app = express();
 
 
-// fix regexp
-// if (data) -> there is always data, so find another way
-// p.s. - fuck the callbacks, I'm too dumb for this shit
-
 const bodyParser = require("body-parser");
 
 // database connection
